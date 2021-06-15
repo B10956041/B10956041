@@ -20,8 +20,8 @@
      
       
      .navbar-nav {
-            margin: auto;
-        }
+          margin: auto;
+      }
       .navbar li {
         margin-right: 100px;
         font-size: 20px;
@@ -30,8 +30,73 @@
       header img {
         width:60px;
       }
-     
-      .jumbotron {
+
+      .page1 section{
+        margin-left:5%;
+        margin-right:5%;
+        
+      }
+
+      
+
+      .page2 section{
+        margin-left:5%;
+        margin-right:5%;
+        
+      }
+      
+      .page3 section{
+        margin-left:5%;
+        margin-right:5%;
+        
+      }
+      .btn a {
+        color: white;
+      }
+
+      .card {
+        margin: auto;
+      }
+
+
+
+    @media (min-width:576px){
+        .jumbotron {
+            padding-top: 2rem;
+            padding-bottom: 35rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            background-image: url('https://pbs.twimg.com/media/EQc-ORmUEAAAni7.jpg:large');
+            background-position: center;
+            background-size: cover;
+            
+        }
+      .jumbotron h1 {
+        font-family: 'Hammersmith One', sans-serif;
+        color: blue;
+      }
+      .page1 p {
+        font-size: 22px;
+        letter-spacing: 1px;
+      }
+      .page3 .row{
+        font-size: 20px;
+      }
+
+      .page2 button{
+        width: 40%;
+        margin-top: 1cm;
+      }
+
+      .page3 button{
+        width: 40%;
+        margin-top: 1cm;
+      }
+
+    }
+
+    @media (max-width:576px){
+        .jumbotron {
             padding-top: 2rem;
             padding-bottom: 35rem;
             color: rgba(255, 255, 255, 0.8);
@@ -45,41 +110,26 @@
         font-family: 'Hammersmith One', sans-serif;
         color: #87CEEB;
       }
-      .page1 section{
-        margin-left:5%;
-        margin-right:5%;
-        
-      }
 
-      .page2 section{
-        margin-left:5%;
-        margin-right:5%;
-        
-      }
-      
-      .page3 section{
-        margin-left:5%;
-        margin-right:5%;
-        
-      }
       .page1 p {
-        font-size: 22px;
-        letter-spacing: 5px;
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+      .page3 .row{
+        font-size: 18px;
       }
 
       .page2 button{
-        width: 30%;
+        width: 60%;
         margin-top: 1cm;
       }
 
-      
-      .btn a {
-        color: white;
+      .page3 button{
+        width: 60%;
+        margin-top: 1cm;
       }
 
-      .card {
-        margin: auto;
-      }
+    }
      
      
     </style>
@@ -162,7 +212,7 @@
           <div class="card" style="width: 18rem;">
             <img src="https://cdn.hinatazaka46.com/images/14/eb9/9c25286e85035c19d5ce162609411/400_320_102400.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">潮紗理菜<br>1997年12月26日（23歲）<br>出身地:神奈川縣<br>綽號:Sarina、潮媽媽、聖母</p>
             </div>
           </div>
           </div>
@@ -171,7 +221,7 @@
           <div class="card" style="width: 18rem;">
             <img src="https://cdn.hinatazaka46.com/images/14/4e2/4c53bb94afb84f7d070a0e1d48eb0/400_320_102400.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">影山優佳<br>2001年5月8日（20歲）<br>出身地:東京都<br>綽號:東大生、小影山</p>
             </div>
           </div>
         </div>
@@ -180,7 +230,7 @@
           <div class="card" style="width: 18rem;">
             <img src="https://cdn.hinatazaka46.com/images/14/2ce/45249d11fc5b16448be9c0cabb025/400_320_102400.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">加藤史帆<br>1998年2月2日（23歲）<br>出身地:東京都<br>綽號:史史、cut史</p>
             </div>
           </div>
           </div>  
@@ -189,7 +239,7 @@
           <div class="card" style="width: 18rem;">
             <img src="https://cdn.hinatazaka46.com/images/14/d66/9cfe7e97b476f5d8521a7672ff1c6/400_320_102400.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">齊藤京子<br>1997年9月5日（23歲）<br>出身地:東京都<br>綽號:國民女友、狂夜、京哥、京妹</p>
             </div>
           </div>
           </div>
@@ -205,9 +255,53 @@
     </section>
   </div>
 
-  <div class="page3">
-    <section>
+  <div class="page3" style="margin-top: 50px;">
+    <section >
+      <h1 style="text-align: center;">相關連結</h1>
+      <hr>
       
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4">
+            <h2 style="text-align: center;">綜藝</h2>
+          </div>
+          <div class="col-md-8">
+            
+          </div>
+          
+          <div class="col-sm-12 col-md-4" >
+            <a href="https://space.bilibili.com/346794495/channel/detail?cid=111000&ctype=0" target="_blank">
+              <img src="http://i2.hdslb.com/bfs/archive/afc32335bcf95f0ca19fe82858fb9715d4f484d3.png" alt="" style="width: 100%;">
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-8" >
+            <p>是日本偶像團體日向坂46及其前身——櫸坂46兩個分隊之一的「平假名櫸坂46」（けやき坂46 / ひらがなけやき）首個冠名節目。節目播出的決定最先於2018年3月發表，其後於2018年4月9日（8日深夜在東京電視台首播</p>
+            <p>隨著平假名櫸坂46改名為日向坂46並在2019年3月發行出道單曲，《平假名推》於2019年4月1日播出最後一集，之後由原班人馬在同時段播出的新節目《在日向坂見面吧》取代。</p>
+            <p>2021年2月15日播出的《在日向坂見面吧》中宣布了本作的DVD及藍光發售</p>
+            <p>全部共有50集，一集為24分鐘</p>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-sm-12 col-md-4" >
+            <a href="https://space.bilibili.com/346794495/channel/detail?cid=111001&ctype=0" target="_blank">
+              <img src="http://i0.hdslb.com/bfs/archive/1cbb0e7743ec551233537f2124523bbf950ff3a8.jpg" alt="" style="width: 100%;">
+            </a>   
+          </div>
+          <div class="col-sm-12 col-md-8" >
+            <p>是日本女子偶像團體日向坂46的冠名節目，於2019年4月8日起日本時間每週日25時5分至25時35分（即週一日本上午1時5分至上午1時35分）在東京電視台播出。主持人為搞笑二人組奧黛麗。</p>
+            <p>該節目為隨著平假名櫸坂46改名為日向坂46之後，取代《平假名推》播出的全新冠名節目，於2019年4月8日在東京電視台首播，主持人則與《平假名推》同樣由奧黛麗擔任</p>
+            <p>屏幕的右下角的注釋字幕中包括了近期日向坂46成員或奧黛麗在其他節目中的發言，以及對節目內容的吐槽等。該節目雖然在深夜播出，但因日向坂46成員們的各種綜藝表現、以及與奧黛麗擦出的火花，在日本電視業界也有許多的討論度</p>
+            <p>目前播放集數有112集，一集也是24分鐘，未來還會再更新</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button type="button" class="btn btn-primary">
+            <a href="" style="text-decoration:none">More
+            </a>
+          </button>
+        </div>
     </section>
   </div>
 </div>
